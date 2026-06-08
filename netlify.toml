@@ -1,0 +1,9 @@
+# Heritage Classical Academy — static site, no build step required.
+[build]
+  publish = "."
+
+# Nice security + caching defaults
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
