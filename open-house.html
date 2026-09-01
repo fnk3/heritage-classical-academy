@@ -37,11 +37,32 @@
         <p style="color:var(--ink-soft);font-size:.95rem;">Questions in the meantime? Email our Board President at <a href="mailto:sandra.george@heritageruston.com">sandra.george@heritageruston.com</a> to arrange a one-on-one meeting or campus visit.</p>
       </div>
       <div>
-        <h3>Reserve Your Spot</h3>
-        <div class="form-embed">
-          <!-- Live Google Form embed. Swap this src for the dedicated Open House signup form when ready. -->
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6pWbvJVUbQEHBg0PTSPnwxth8Xx4G6QZhXBgckXOtRWovlQ/viewform?embedded=true" loading="lazy">Loading…</iframe>
-        </div>
+        <h3>Sign Up for Updates</h3>
+        <form class="hca-form" name="open-house-interest" method="POST" action="/open-house-thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="open-house-interest">
+          <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <label for="oh-name">Name</label>
+          <input type="text" id="oh-name" name="name" required>
+          <label for="oh-email">Email</label>
+          <input type="email" id="oh-email" name="email" required>
+          <label for="oh-phone">Phone</label>
+          <input type="tel" id="oh-phone" name="phone">
+          <label for="oh-grade">My child will be entering</label>
+          <select id="oh-grade" name="child-grade">
+            <option>Kindergarten</option>
+            <option>First Grade</option>
+            <option>Second Grade</option>
+            <option>Other</option>
+          </select>
+          <label for="oh-heard">How did you hear about us?</label>
+          <select id="oh-heard" name="how-heard">
+            <option>Search Engine</option>
+            <option>Social Media</option>
+            <option>Friend or Family</option>
+            <option>Information Meeting</option>
+          </select>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
       </div>
     </div>
   </div>
