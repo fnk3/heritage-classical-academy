@@ -321,6 +321,21 @@ section { padding: clamp(54px, 8vw, 92px) 0; }
 /* form embed */
 .form-embed { background:#fff; border:1px solid var(--line); border-radius:6px; box-shadow:var(--shadow); overflow:hidden; }
 .form-embed iframe { width:100%; border:0; display:block; min-height:1100px; }
+
+/* native form (Netlify Forms) */
+.hca-form { background:#fff; border:1px solid var(--line); border-radius:6px; box-shadow:var(--shadow); padding:32px 30px; }
+.hca-form label {
+  display:block; font-weight:700; font-size:.82rem; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--navy); margin:0 0 .45rem;
+}
+.hca-form input, .hca-form select, .hca-form textarea {
+  width:100%; padding:12px 14px; margin-bottom:1.2rem;
+  border:1px solid var(--line); border-radius:4px;
+  font-family:var(--sans); font-size:1rem; color:var(--ink);
+  background:var(--cream); outline:none; transition:border-color .2s;
+}
+.hca-form input:focus, .hca-form select:focus, .hca-form textarea:focus { border-color:var(--gold); }
+.hca-form button { width:100%; }
 .info-box { background:var(--cream-deep); border-left:4px solid var(--gold); padding:22px 26px; border-radius:0 6px 6px 0; margin:1.4rem 0; }
 .info-box strong { color:var(--navy); }
 

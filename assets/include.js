@@ -45,6 +45,7 @@
         '<li><a href="our-team.html">Our Team</a></li>' +
         '<li><a href="employment.html">Employment</a></li>' +
         '<li><a href="support-us.html">Support Us</a></li>' +
+        '<li class="sub-sub"><a href="fundraiser-raffle.html">2026 Fundraiser Raffle</a></li>' +
         '<li class="sub-sub"><a href="' + FUNRUN + '" target="_blank" rel="noopener">Heritage 5K / Fun Run</a></li>' +
       '</ul></li>' +
       '<li><a href="application-process.html" class="dd-toggle">Admissions</a><ul class="submenu">' +
@@ -72,6 +73,7 @@
         '<p style="color:#9aa6c0;">Inside Calvary Baptist Church<br>5200 Hwy. 167 N, Ruston, LA 71270</p>' +
       '</div>' +
       '<div><h4>Explore</h4><ul>' +
+        '<li><a href="fundraiser-raffle.html">2026 Fundraiser Raffle</a></li>' +
         '<li><a href="welcome.html">Welcome</a></li>' +
         '<li><a href="our-story.html">Our Story</a></li>' +
         '<li><a href="our-mission.html">Our Mission</a></li>' +
@@ -87,7 +89,7 @@
         '<li><a href="employment.html">Employment</a></li>' +
       '</ul></div>' +
     '</div>' +
-    '<p class="nondiscrim"><strong>NOTICE OF NON-DISCRIMINATORY POLICY:</strong> Heritage Classical Academy does not discriminate on the basis of race, color, national or ethnic origin in the administration of its educational, admission, tuition assistance, or employment policies, or any other programs administered by the school.</p>' +
+    '<p class="nondiscrim"><strong>NOTICE OF NON-DISCRIMINATORY POLICY:</strong> Heritage Classical Academy admits students of any race, color, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students of the organization. It does not discriminate on the basis of race, color, national and ethnic origin in administration of its educational policies, admissions policies, scholarship programs, and other organization-administered programs.</p>' +
   '</div><div class="copyright">© 2026 Heritage Classical Academy. All Rights Reserved.</div></footer>';
 
   function inject() {
