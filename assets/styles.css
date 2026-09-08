@@ -311,6 +311,12 @@ section { padding: clamp(54px, 8vw, 92px) 0; }
 
 /* team */
 .team-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:30px; }
+@media (max-width:560px) {
+  .team-grid { grid-template-columns:1fr 1fr; gap:16px; }
+  .person h3 { font-size:1.05rem; }
+  .person .pbody { padding:12px 14px; }
+  .person .role { font-size:.7rem; }
+}
 .person { background:#fff; border:1px solid var(--line); border-radius:6px; overflow:hidden; box-shadow:var(--shadow-sm); }
 .person img { width:100%; aspect-ratio:3/4; object-fit:cover; }
 .person .pbody { padding:18px 20px; }
