@@ -248,7 +248,7 @@ section { padding: clamp(54px, 8vw, 92px) 0; }
 /* scripture band */
 .scripture {
   background: linear-gradient(rgba(18,29,53,.9),rgba(18,29,53,.92)),
-    url("https://heritageruston.com/wp-content/uploads/2025/01/JL.012.HCC_.1.25-683x1024.jpg") center 30%/cover no-repeat;
+    url("img/startup-team.jpg") center 30%/cover no-repeat;
   color:#fff; text-align:center;
 }
 .scripture blockquote {

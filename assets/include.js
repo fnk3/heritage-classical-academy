@@ -7,7 +7,7 @@
 (function () {
   var CAL = "https://docs.google.com/document/d/1ypwxr5_r9rGFX0TstoN0xY2nDSSFCB17dDX4giYkzV4/edit";
   var FUNRUN = "https://runsignup.com/Race/LA/Ruston/HeritageClassicalAcademy5K1MileFunRun";
-  var SHIELD = "https://heritageruston.com/wp-content/uploads/2024/11/Heritage_Shield_3.png";
+  var SHIELD = "assets/heritage-logo-white.svg";
 
   // White-text Heritage logo, inlined so page-loaded fonts (Gupter/Jost) apply to the wordmark.
   var LOGO = '<svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744.40709 216.48" role="img" aria-label="Heritage Classical Academy">' +
