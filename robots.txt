@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /open-house-thanks.html
+
+Sitemap: https://heritageruston.com/sitemap.xml
