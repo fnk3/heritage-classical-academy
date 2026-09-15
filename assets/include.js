@@ -8,6 +8,8 @@
   var CAL = "https://docs.google.com/document/d/1ypwxr5_r9rGFX0TstoN0xY2nDSSFCB17dDX4giYkzV4/edit";
   var FUNRUN = "https://runsignup.com/Race/LA/Ruston/HeritageClassicalAcademy5K1MileFunRun";
   var SHIELD = "assets/heritage-logo-white.svg";
+  var GIVE = "https://givebutter.com/heritage-classical-ruston";
+  var APPFEE = "https://givebutter.com/heritage-ruston-application";
 
   // White-text Heritage logo, inlined so page-loaded fonts (Gupter/Jost) apply to the wordmark.
   var LOGO = '<svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 744.40709 216.48" role="img" aria-label="Heritage Classical Academy">' +
@@ -31,6 +33,7 @@
       '<a href="faqs.html">FAQs</a>' +
       '<a href="' + CAL + '" target="_blank" rel="noopener">School Calendar</a>' +
       '<a href="open-house.html">Open House</a>' +
+      '<a href="' + GIVE + '" target="_blank" rel="noopener" style="color:var(--gold-bright);font-weight:700;">Give Now</a>' +
     '</span>' +
   '</div></div>' +
   '<header class="site-header"><nav class="nav">' +
@@ -73,6 +76,7 @@
         '<p style="color:#9aa6c0;">Inside Calvary Baptist Church<br>5200 Hwy. 167 N, Ruston, LA 71270</p>' +
       '</div>' +
       '<div><h4>Explore</h4><ul>' +
+        '<li><a href="' + GIVE + '" target="_blank" rel="noopener">Give Now</a></li>' +
         '<li><a href="fundraiser-raffle.html">2026 Fundraiser Raffle</a></li>' +
         '<li><a href="welcome.html">Welcome</a></li>' +
         '<li><a href="our-story.html">Our Story</a></li>' +
