@@ -1,0 +1,5 @@
+# Heritage Classical Academy — static site, no build step required.
+# Netlify's default caching (etag revalidation on every deploy) is used deliberately —
+# do not add long max-age headers for /assets/*, or visitors can see stale nav/styles.
+[build]
+  publish = "."
