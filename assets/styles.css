@@ -380,3 +380,24 @@ section { padding: clamp(54px, 8vw, 92px) 0; }
 .nondiscrim { font-size:.8rem; color:#8b96b0; border-top:1px solid rgba(255,255,255,.12); padding:24px 0; font-style:italic; }
 .copyright { background:#0d1526; color:#7c87a3; font-size:.82rem; text-align:center; padding:16px 0; }
 .copyright a { color:#9aa6c0; }
+
+/* school calendar */
+.cal-grid { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
+@media (max-width:900px){ .cal-grid{grid-template-columns:1fr;} }
+.cal-card { background:#fff; border:1px solid var(--line); border-radius:6px; overflow:hidden; box-shadow:var(--shadow-sm); }
+.cal-head { background:var(--navy); padding:18px 24px; }
+.cal-head h2 { color:#fff; margin:0; font-size:1.7rem; }
+.cal-table { width:100%; border-collapse:collapse; }
+.cal-table td { padding:12px 24px; border-bottom:1px solid var(--line); vertical-align:top; font-size:1rem; }
+.cal-table tr:last-child td { border-bottom:0; }
+.cal-table td.d { width:46%; font-weight:700; color:var(--navy); }
+.cal-table td.d span { display:block; font-weight:400; font-size:.85rem; color:var(--ink-soft); }
+.cal-table td em { color:var(--ink-soft); font-style:normal; font-size:.9rem; }
+.cal-table tr.hl td { background:#f6efdd; }
+.cal-table tr.hl td:last-child { font-weight:700; color:var(--gold); }
+.cal-table tr.off td:last-child { color:var(--ink-soft); }
+.cal-legend { display:flex; gap:24px; justify-content:center; margin-top:22px; font-size:.9rem; color:var(--ink-soft); }
+.cal-legend .sw { display:inline-block; width:14px; height:14px; border-radius:3px; margin-right:8px; vertical-align:-2px; border:1px solid var(--line); }
+.cal-legend .sw.hl { background:#f6efdd; }
+.cal-legend .sw.off { background:#fff; }
+@media (max-width:560px){ .cal-table td{padding:11px 16px;} }
