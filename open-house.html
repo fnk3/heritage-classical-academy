@@ -42,16 +42,19 @@
       <div>
         <p class="lead">Thank you for your interest in Heritage Classical Academy. Parents who attend an Open House will also have the opportunity to sign up to visit campus and see a class in action.</p>
         <hr class="rule">
-        <h3>Upcoming Event Dates</h3>
+        <h3>Open House</h3>
+        <p>Join us for an Open House evening. Each one begins at 6:30 PM at Calvary Baptist Church, 5200 Hwy. 167, Ruston.</p>
         <div class="info-box">
-          <strong>2027 Open House dates will be announced this fall.</strong><br>
-          <span style="color:var(--ink-soft);">Sign up below and we will notify you as soon as dates are set.</span>
+          <strong>Tuesday, January 12, 2027</strong> &middot; 6:30 PM<br>
+          <strong>Thursday, February 18, 2027</strong> &middot; 6:30 PM<br>
+          <strong>Tuesday, April 6, 2027</strong> &middot; 6:30 PM
         </div>
+        <p><a class="btn btn-primary" href="#sign-up">Sign Up for an Open House</a></p>
         <p><strong>Location:</strong><br>Calvary Baptist Church<br>5200 Hwy. 167, Ruston, LA 71270</p>
         <p style="color:var(--ink-soft);font-size:.95rem;">Questions in the meantime? Email our Board President at <a href="mailto:sandra.george@heritageruston.com">sandra.george@heritageruston.com</a> to arrange a one-on-one meeting or campus visit.</p>
       </div>
       <div>
-        <h3>Sign Up for Updates</h3>
+        <h3 id="sign-up">Reserve Your Spot</h3>
         <form class="hca-form" name="open-house-interest" method="POST" action="/open-house-thanks.html" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="open-house-interest">
           <p style="display:none;"><label>Don't fill this out: <input name="bot-field"></label></p>
@@ -61,6 +64,14 @@
           <input type="email" id="oh-email" name="email" required>
           <label for="oh-phone">Phone</label>
           <input type="tel" id="oh-phone" name="phone">
+          <label for="oh-date">Which Open House will you attend?</label>
+          <select id="oh-date" name="open-house-date" required>
+            <option value="" disabled selected>Select a date</option>
+            <option>Tuesday, January 12, 2027 – 6:30 PM</option>
+            <option>Thursday, February 18, 2027 – 6:30 PM</option>
+            <option>Tuesday, April 6, 2027 – 6:30 PM</option>
+            <option>Can't attend – please contact me about a visit</option>
+          </select>
           <label for="oh-grade">My child will be entering</label>
           <select id="oh-grade" name="child-grade">
             <option>Kindergarten</option>
@@ -75,7 +86,7 @@
             <option>Friend or Family</option>
             <option>Information Meeting</option>
           </select>
-          <button class="btn btn-primary" type="submit">Send</button>
+          <button class="btn btn-primary" type="submit">Reserve My Spot</button>
         </form>
       </div>
     </div>
